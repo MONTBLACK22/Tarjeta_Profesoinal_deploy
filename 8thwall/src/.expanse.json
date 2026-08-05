@@ -48,19 +48,19 @@
       "name": "Camera",
       "position": [
         0,
-        2,
-        3
+        1.9372745758889232,
+        0.901189724949707
       ],
       "rotation": [
-        0.0004436887233141012,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0.00007467531187939786,
+        0.9990498105268568,
+        -0.0435492340390484,
+        0.0017131037509698394
       ],
       "scale": [
+        1.0000000000000024,
         1,
-        1,
-        1
+        1.0000000000000024
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -98,14 +98,14 @@
       "id": "0ae4e68c-672f-44c4-a020-14c9abca878c",
       "position": [
         2.195994335921044,
-        0,
-        0.24616150711806517
+        -0.24616150711806517,
+        5.465883459578106e-17
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         1,
@@ -114,7 +114,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "178c6c5f-746f-481a-8dec-1a804cf253af",
       "components": {},
       "gltfModel": {
         "src": {
@@ -154,6 +154,163 @@
         "name": "WhatsApp Image 2026-08-03 at 11.16.56 AM_original"
       },
       "order": 5.8695641647690815
+    },
+    "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46": {
+      "id": "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46",
+      "position": [
+        0.16983819014379153,
+        1.858675212739293,
+        -1.748773960036961
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.500000000000002,
+        4.50000023945617,
+        4.50000023945617
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Video_2026-08-05_at_110211_AM.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plane",
+      "order": 7.35362728073362,
+      "videoControls": {}
+    },
+    "e4b034c0-13d8-437b-a528-72f1966bb0e7": {
+      "id": "e4b034c0-13d8-437b-a528-72f1966bb0e7",
+      "position": [
+        -0.03774182003195366,
+        0.07609703166387194,
+        0.039081371446545166
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5000000000000001,
+        0.5000000000000001,
+        0.5000000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Play",
+      "order": 9.248986180916404
+    },
+    "69f3f278-3ded-4919-a1f7-41406082be9f": {
+      "id": "69f3f278-3ded-4919-a1f7-41406082be9f",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e4b034c0-13d8-437b-a528-72f1966bb0e7",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.2312717746893017,
+      "disabled": true
+    },
+    "e567c2b5-f571-4649-8340-1046e94bbff3": {
+      "id": "e567c2b5-f571-4649-8340-1046e94bbff3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e4b034c0-13d8-437b-a528-72f1966bb0e7",
+      "components": {
+        "d8000351-1eaf-4cb8-a70d-4a9fe3ed0154": {
+          "id": "d8000351-1eaf-4cb8-a70d-4a9fe3ed0154",
+          "name": "PlayPauseButton",
+          "parameters": {
+            "videoPlane": {
+              "type": "entity",
+              "id": "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46"
+            },
+            "textEntity": {
+              "type": "entity",
+              "id": "e567c2b5-f571-4649-8340-1046e94bbff3"
+            }
+          }
+        }
+      },
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Play",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.137487333263697
     }
   },
   "spaces": {
