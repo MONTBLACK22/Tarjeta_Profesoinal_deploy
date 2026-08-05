@@ -190,7 +190,9 @@
       "components": {},
       "name": "Plane",
       "order": 7.35362728073362,
-      "videoControls": {}
+      "videoControls": {
+        "paused": false
+      }
     },
     "e4b034c0-13d8-437b-a528-72f1966bb0e7": {
       "id": "e4b034c0-13d8-437b-a528-72f1966bb0e7",
