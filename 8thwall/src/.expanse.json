@@ -97,25 +97,38 @@
     "0ae4e68c-672f-44c4-a020-14c9abca878c": {
       "id": "0ae4e68c-672f-44c4-a020-14c9abca878c",
       "position": [
-        2.195994335921044,
-        -0.24616150711806517,
-        5.465883459578106e-17
+        2.2270117132303766,
+        -0.24616150711806511,
+        4.0432026423012607e-16
       ],
       "rotation": [
         0.7071067811865475,
-        0,
-        0,
+        -5.551115123125784e-17,
+        5.551115123125783e-17,
         0.7071067811865476
       ],
       "scale": [
         1,
-        1,
-        1
+        0.9999999999999998,
+        0.9999999999999998
       ],
       "geometry": null,
       "material": null,
-      "parentId": "178c6c5f-746f-481a-8dec-1a804cf253af",
-      "components": {},
+      "parentId": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
+      "components": {
+        "3bf01b06-53d6-49c4-96ee-d6f37faf1fdf": {
+          "id": "3bf01b06-53d6-49c4-96ee-d6f37faf1fdf",
+          "name": "CharacterAnimator",
+          "parameters": {
+            "character": {
+              "type": "entity",
+              "id": "0ae4e68c-672f-44c4-a020-14c9abca878c"
+            },
+            "anim1": "mixamo.com.001",
+            "anim2": "mixamo.com"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -127,51 +140,23 @@
       "name": "personaje_animado.glb",
       "order": 4.687759682470109
     },
-    "178c6c5f-746f-481a-8dec-1a804cf253af": {
-      "id": "178c6c5f-746f-481a-8dec-1a804cf253af",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        -0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "WhatsApp Image 2026-08-03 at 11.16.56 AM_original"
-      },
-      "order": 5.8695641647690815
-    },
     "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46": {
       "id": "74cfc05e-3efb-4143-8ed7-2c5a0fd95b46",
       "position": [
-        0.16983819014379153,
-        1.858675212739293,
-        -1.748773960036961
+        0.171564978201343,
+        1.7487739600369618,
+        1.858675212739293
       ],
       "rotation": [
-        0,
-        0,
-        0,
-        1
+        0.7071067811865475,
+        -5.551115123125783e-17,
+        5.551115123125781e-17,
+        0.7071067811865476
       ],
       "scale": [
-        4.500000000000002,
-        4.50000023945617,
-        4.50000023945617
+        7.799999999999992,
+        4.5000002394561704,
+        4.5000002394561704
       ],
       "geometry": {
         "type": "plane",
@@ -183,13 +168,13 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/WhatsApp_Video_2026-08-05_at_110211_AM.mp4"
+          "asset": "assets/WhatsApp_Video_2026-08-18_at_103009_PM.mp4"
         }
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
       "components": {},
       "name": "Plane",
-      "order": 7.35362728073362,
+      "order": 3.4579431461936667,
       "videoControls": {
         "paused": false
       }
@@ -313,6 +298,169 @@
         "fontSize": 16
       },
       "order": 1.137487333263697
+    },
+    "97d36a70-d392-45ae-ae8b-ce3fc637d1f0": {
+      "id": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
+      "position": [
+        -0.0017267880575517758,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        5.551115123125783e-17,
+        -5.5511151231257815e-17,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        0.9999999999999998,
+        0.9999999999999998
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "tarjeta_profesional_tobon-1"
+      },
+      "order": 8.571905958106473
+    },
+    "5b96caee-b7f7-40cb-afe4-39dc83e7908e": {
+      "id": "5b96caee-b7f7-40cb-afe4-39dc83e7908e",
+      "name": "Boton_WhatsApp",
+      "parentId": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
+      "position": [
+        -0.2265,
+        -0.4292,
+        0.02
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "c97cdcfa-16ba-49f3-b0bd-3071f7434465": {
+          "id": "c97cdcfa-16ba-49f3-b0bd-3071f7434465",
+          "name": "WhatsAppButton",
+          "parameters": {
+            "url": "https://wa.me/573043980906"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#25D366",
+        "backgroundOpacity": 0.25,
+        "borderColor": "#25D366",
+        "borderWidth": 3,
+        "borderRadius": 16,
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "order": 9.3001
+    },
+    "414003b6-c116-4e74-bcb1-b48b866d9f01": {
+      "id": "414003b6-c116-4e74-bcb1-b48b866d9f01",
+      "name": "Boton_Instagram",
+      "parentId": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
+      "position": [
+        -0.0215,
+        -0.4292,
+        0.02
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "813ea758-3b62-4cfe-bc70-24e17de14d2b": {
+          "id": "813ea758-3b62-4cfe-bc70-24e17de14d2b",
+          "name": "InstagramButton",
+          "parameters": {
+            "url": "https://www.instagram.com/jt.__.22/?utm_source=ig_web_button_share_sheet"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#E1306C",
+        "backgroundOpacity": 0.25,
+        "borderColor": "#E1306C",
+        "borderWidth": 3,
+        "borderRadius": 16,
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "order": 9.3002
+    },
+    "1bcf9422-459e-4491-b1fc-37e6cde2b6fc": {
+      "id": "1bcf9422-459e-4491-b1fc-37e6cde2b6fc",
+      "name": "Boton_YouTube",
+      "parentId": "97d36a70-d392-45ae-ae8b-ce3fc637d1f0",
+      "position": [
+        0.1836,
+        -0.4292,
+        0.02
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "5e33eb8f-7711-46ab-ba75-36bb1a754a68": {
+          "id": "5e33eb8f-7711-46ab-ba75-36bb1a754a68",
+          "name": "YouTubeButton",
+          "parameters": {
+            "url": "https://youtube.com/@chilleitor?si=J3LpZuGt3LiccguO"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#FF0000",
+        "backgroundOpacity": 0.25,
+        "borderColor": "#FF0000",
+        "borderWidth": 3,
+        "borderRadius": 16,
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "order": 9.3003
     }
   },
   "spaces": {
