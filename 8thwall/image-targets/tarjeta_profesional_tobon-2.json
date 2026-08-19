@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 34,
+    "left": 0,
+    "width": 1024,
+    "height": 1365,
+    "isRotated": false,
+    "originalWidth": 1024,
+    "originalHeight": 1434
+  },
+  "imagePath": "image-targets/tarjeta_profesional_tobon-2_luminance.png",
+  "metadata": null,
+  "name": "tarjeta_profesional_tobon-2",
+  "resources": {
+    "originalImage": "tarjeta_profesional_tobon-2_original.png",
+    "croppedImage": "tarjeta_profesional_tobon-2_cropped.png",
+    "thumbnailImage": "tarjeta_profesional_tobon-2_thumbnail.png",
+    "luminanceImage": "tarjeta_profesional_tobon-2_luminance.png"
+  },
+  "created": 1787115666290,
+  "updated": 1787115666290
+}
