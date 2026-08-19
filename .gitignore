@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+8thwall/node_modules/
+
+# Build staging and zip archives
+*.zip
+temp_zip_staging/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
