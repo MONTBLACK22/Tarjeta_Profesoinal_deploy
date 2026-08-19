@@ -9,15 +9,15 @@
     "originalWidth": 1024,
     "originalHeight": 1434
   },
-  "imagePath": "image-targets/tarjeta_profesional_tobon-1_luminance.png",
+  "imagePath": "image-targets/tarjeta_profesional_tobon-2_luminance.png",
   "metadata": null,
-  "name": "tarjeta_profesional_tobon-1",
+  "name": "tarjeta_profesional_tobon-2",
   "resources": {
-    "originalImage": "tarjeta_profesional_tobon-1_original.png",
-    "croppedImage": "tarjeta_profesional_tobon-1_cropped.png",
-    "thumbnailImage": "tarjeta_profesional_tobon-1_thumbnail.png",
-    "luminanceImage": "tarjeta_profesional_tobon-1_luminance.png"
+    "originalImage": "tarjeta_profesional_tobon-2_original.png",
+    "croppedImage": "tarjeta_profesional_tobon-2_cropped.png",
+    "thumbnailImage": "tarjeta_profesional_tobon-2_thumbnail.png",
+    "luminanceImage": "tarjeta_profesional_tobon-2_luminance.png"
   },
-  "created": 1787103613975,
-  "updated": 1787103613975
+  "created": 1787115666290,
+  "updated": 1787115666290
 }
