@@ -1,23 +1,23 @@
 {
   "type": "PLANAR",
   "properties": {
-    "top": 0,
+    "top": 34,
     "left": 0,
-    "width": 960,
-    "height": 1280,
+    "width": 1024,
+    "height": 1365,
     "isRotated": false,
-    "originalWidth": 960,
-    "originalHeight": 1280
+    "originalWidth": 1024,
+    "originalHeight": 1434
   },
-  "imagePath": "image-targets/WhatsApp Image 2026-08-03 at 11.16.56 AM_luminance.jpg",
+  "imagePath": "image-targets/tarjeta_profesional_tobon-1_luminance.png",
   "metadata": null,
-  "name": "WhatsApp Image 2026-08-03 at 11.16.56 AM",
+  "name": "tarjeta_profesional_tobon-1",
   "resources": {
-    "originalImage": "WhatsApp Image 2026-08-03 at 11.16.56 AM_original.jpg",
-    "croppedImage": "WhatsApp Image 2026-08-03 at 11.16.56 AM_cropped.jpg",
-    "thumbnailImage": "WhatsApp Image 2026-08-03 at 11.16.56 AM_thumbnail.jpg",
-    "luminanceImage": "WhatsApp Image 2026-08-03 at 11.16.56 AM_luminance.jpg"
+    "originalImage": "tarjeta_profesional_tobon-1_original.png",
+    "croppedImage": "tarjeta_profesional_tobon-1_cropped.png",
+    "thumbnailImage": "tarjeta_profesional_tobon-1_thumbnail.png",
+    "luminanceImage": "tarjeta_profesional_tobon-1_luminance.png"
   },
-  "created": 1785773994038,
-  "updated": 1785773994038
+  "created": 1787103613975,
+  "updated": 1787103613975
 }
